@@ -22,6 +22,16 @@ const Users: User[] = [
   //------- FEATURED TEMPLATES have 'featured' as a tag
 
   {
+    title: 'Azure Container Apps Landing Zone Accelerator',
+    description:
+      'Azure Container Apps landing zone accelerator provide architectural guidance, reference architectures, reference implementations, and automation to deploy containerized workloads on Azure Container Apps at scale',
+      preview: require('./images/apptemplate-wordpress-on-ACA.png'),
+    website: 'https://github.com/Azure/aca-landing-zone-accelerator',
+    author: 'Microsoft',
+    source: 'https://github.com/Azure/aca-landing-zone-accelerator',
+    tags: ['featured','terraform','landingzone','aca','agw','rediscache','monitor','keyvault', 'bicep', 'hub-spoke', 'architecture', 'iac', 'containerapps'],
+  },  
+  {
     title: 'WordPress with Azure Container Apps',
     description:
       'A blueprint to easily and quickly create and deploy your first scalable and secure WordPress site to Azure, leveraging Azure Container Apps with Azure Database for MariaDb.',
