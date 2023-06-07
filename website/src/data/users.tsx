@@ -20,7 +20,26 @@ import {TagType, User, Tags} from './tags';
 const Users: User[] = [
 
   //------- FEATURED TEMPLATES have 'featured' as a tag
-
+  {
+    title: 'Azure Container Apps landing Zone Accelerator',
+    description:
+      'An architectural guidance with reference architecture and implementation to deploy containerized applications to Azure Container Apps in a secured footprint',
+      preview: require('./images/apptemplate-wordpress-on-ACA.png'),
+    website: 'https://github.com/Azure/aca-landing-zone-accelerator',
+    author: 'Microsoft',
+    source: 'https://github.com/Azure/aca-landing-zone-accelerator',
+    tags: ['featured','terraform','bicep','aca','agw','java','monitor','keyvault', 'loganalytics','keda'],
+  },  
+  {
+    title: 'Azure Spring Apps landing Zone Accelerator',
+    description:
+      'An architectural guidance with reference architecture and implementation to deploy spring boot applications to Azure Spring Apps in a secured footprint',
+      preview: require('./images/apptemplate-wordpress-on-ACA.png'),
+    website: 'https://github.com/Azure/azure-spring-apps-landing-zone-accelerator',
+    author: 'Microsoft',
+    source: 'https://github.com/Azure/azure-spring-apps-landing-zone-accelerator',
+    tags: ['featured','terraform','bicep','Spring','agw','java','monitor','keyvault', 'loganalytics'],
+  },  
   {
     title: 'WordPress with Azure Container Apps',
     description:
